@@ -1,0 +1,138 @@
+* {
+ padding: 0;
+ margin: 0;
+ background-color: white;
+}
+nav{
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card-number {
+  width: 21px;
+  text-align: center;
+  height: 21px;
+  font-size: 14px;
+  border-radius: 11px;
+  background-color: #0825EB;
+  color: #F0F0F0;
+  border: 1px blue solid;
+}
+.search{
+  width: 300px;
+  border: none;
+}
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+ 
+}
+.prod-header{
+width: 23%;
+}
+.prod-list{
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.title-text1{
+  font-family: QTOptimum;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 65px;
+    text-align: left;
+}
+
+.title-text2{
+font-family: Lava Kannada;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.prod-text{
+  font-family: Lava Kannada;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    width: 300px;
+    text-align: left;
+}
+ .prod-name{
+  padding-top: 1rem;
+ }
+.price-section{
+display: flex;
+margin-top:1rem;
+flex-direction: row;
+border: 1px gray solid;
+width: 340px;
+}
+.price-tag{
+  width: 20%;
+  padding: 5px;
+  border-right: 1px solid gray;
+}
+.price-tag:hover{
+  color: #0825EB;
+}
+.card-count {
+  height: 24px;
+  padding-top: 10px;
+  width: 20px;
+}
+.price-label {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  color: blue;
+}
+.header-icon{
+  display: flex;
+  flex-direction: row;
+}
+.price-label p{
+  padding: 5px;
+}
+.price-label :hover{
+  color: white;
+    justify-content: center;
+      display: flex;
+    width: 100%;
+    background-color: blue;
+    cursor: pointer;
+}
+.prod-key {
+  width: 100px;
+  height: 37px;
+  text-align: center;
+  left: 112.5px;
+  background-color: #F0F0F0;
+  color: black;
+  border: 1px gray solid;
+  margin-top: 11px;
+  border-radius: 27px;
+}
+.prod-key:hover{
+  color: #F0F0F0;
+  background-color: #0825EB;
+}
+.prod-cat{
+  padding-top: 2rem;
+}
+.border {
+  border: 1px black solid;
+  width: 192px;
+  margin-top: 34px;
+}
+@media (max-width:786px) {
+
+  .prod-list {
+      display: flex;
+      flex-direction:column;
+    }
+}
